@@ -7,6 +7,6 @@ import org.apache.dubbo.common.extension.SPI;
 
 @SPI(value = "dubbo")
 public interface AdaptiveExt2 {
-  @Adaptive
+  @Adaptive({"ext1","ext2"})
   String echo(String msg, URL url);
 }

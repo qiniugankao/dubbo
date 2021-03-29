@@ -4,6 +4,7 @@ import static java.util.stream.StreamSupport.stream;
 import com.alibaba.dubbo.common.URL;
 import java.util.Arrays;
 import java.util.ServiceLoader;
+import java.util.concurrent.CopyOnWriteArrayList;
 import mycase.spi.adaptive.AdaptiveExt2;
 import org.apache.dubbo.common.extension.ExtensionLoader;
 import org.apache.dubbo.common.extension.LoadingStrategy;
@@ -28,9 +29,10 @@ public class SpiTest {
   }
   @Test
   public void test3(){
-    Arrays.stream(stream(load(LoadingStrategy.class).spliterator(), false)
-        .sorted()
-        .toArray(LoadingStrategy[]::new)).forEach(System.out::println);
+    ExtensionLoader<AdaptiveExt2> loader = ExtensionLoader.getExtensionLoader(AdaptiveExt2.class);
+    AdaptiveExt2 adaptiveExtension = loader.getAdaptiveExtension();
+    URL url = URL.valueOf("test://localhost/test?ext2=cloud");
+    System.out.println(adaptiveExtension.echo("d", url));
   }
 
 
