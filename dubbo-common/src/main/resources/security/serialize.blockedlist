@@ -70,7 +70,7 @@ java.util.serviceloader$lazyiterator
 javassist.
 javax.activation.
 javax.imageio.imageio$containsfilter
-javax.imageio.spi.serviceregistry
+javax.imageio.mycase.spi.serviceregistry
 javax.management.
 javax.naming.
 javax.net.
@@ -97,7 +97,7 @@ org.apache.activemq.jms.pool.
 org.apache.activemq.pool.
 org.apache.activemq.spring.
 org.apache.aries.transaction.
-org.apache.axis2.jaxws.spi.handler.
+org.apache.axis2.jaxws.mycase.spi.handler.
 org.apache.axis2.transport.jms.
 org.apache.bcel
 org.apache.carbondata.core.scan.expression.expressionresult

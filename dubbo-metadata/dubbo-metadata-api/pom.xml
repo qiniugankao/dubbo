@@ -50,7 +50,7 @@
             <artifactId>gson</artifactId>
         </dependency>
 
-        <!-- Test dependencies -->
+        <!-- SpiTest dependencies -->
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-configcenter-zookeeper</artifactId>

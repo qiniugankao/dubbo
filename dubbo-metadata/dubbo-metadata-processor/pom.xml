@@ -122,7 +122,7 @@
             <artifactId>gson</artifactId>
         </dependency>
 
-        <!-- Test -->
+        <!-- SpiTest -->
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-config-api</artifactId>

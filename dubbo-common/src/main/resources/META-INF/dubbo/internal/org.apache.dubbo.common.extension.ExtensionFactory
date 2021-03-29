@@ -1,2 +1,2 @@
 adaptive=org.apache.dubbo.common.extension.factory.AdaptiveExtensionFactory
-spi=org.apache.dubbo.common.extension.factory.SpiExtensionFactory
+mycase.spi=org.apache.dubbo.common.extension.factory.SpiExtensionFactory

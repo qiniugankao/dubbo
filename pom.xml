@@ -87,7 +87,7 @@
     </issueManagement>
 
     <properties>
-        <!-- Test libs -->
+        <!-- SpiTest libs -->
         <junit_jupiter_version>5.7.1</junit_jupiter_version>
         <hazelcast_version>3.11.1</hazelcast_version>
         <hamcrest_version>2.2</hamcrest_version>
@@ -152,6 +152,7 @@
         <module>dubbo-metadata</module>
         <module>dubbo-build-tools</module>
         <module>dubbo-spring-boot</module>
+      <module>myCase</module>
     </modules>
 
     <dependencyManagement>
@@ -584,7 +585,7 @@
                                 </exclude>
                                 <exclude>.github/**</exclude>
                                 <exclude>compiler/**</exclude>
-                                <!-- exclude mockito extensions spi files -->
+                                <!-- exclude mockito extensions mycase.spi files -->
                                 <exclude>**/mockito-extensions/*</exclude>
                             </excludes>
                         </configuration>

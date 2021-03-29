@@ -1,0 +1,3 @@
+dubbo=mycase.spi.adaptive.DubboAdaptiveExt2
+cloud=mycase.spi.adaptive.SpringCloudAdaptiveExt2
+thrift=mycase.spi.adaptive.ThriftAdaptiveExt2

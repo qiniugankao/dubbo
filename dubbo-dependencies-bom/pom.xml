@@ -607,7 +607,7 @@
                 <scope>test</scope>
             </dependency>
 
-            <!-- Test lib -->
+            <!-- SpiTest lib -->
             <dependency>
                 <groupId>org.apache.curator</groupId>
                 <artifactId>curator-test</artifactId>

@@ -23,7 +23,7 @@ import org.apache.dubbo.common.URL;
 import javax.cache.spi.CachingProvider;
 
 /**
- * JCacheFactory is factory class to provide instance of javax spi cache.Implement {@link org.apache.dubbo.cache.CacheFactory} by
+ * JCacheFactory is factory class to provide instance of javax mycase.spi cache.Implement {@link org.apache.dubbo.cache.CacheFactory} by
  * extending {@link AbstractCacheFactory} and provide
  * @see AbstractCacheFactory
  * @see JCache
